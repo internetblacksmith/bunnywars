@@ -1,0 +1,16 @@
+# Title:         Star Wars Telent
+# Description:   Open a telent connection to towel.blinkenlights.nl to watch star wars
+# Author:        Jabawack81
+# Version:       1.0
+# Category:      Prank
+# Target:        Linux
+# Attackmodes:   HID
+
+LED ATTACK
+ATTACKMODE HID
+QUACK CTRL-ALT t
+sleep 1
+QUACK STRING "telnet towel.blinkenlights.nl"
+QUACK ENTER
+LED FINISH
+ATTACKMODE OFF
